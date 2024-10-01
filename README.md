@@ -15,3 +15,4 @@ mst name | formatter name | import version
 ---------|----------------|---------------
 musics | MasterMusicFormatter | 1.0.0
 virtualLives | MasterVirtualLiveFormatter | 1.0.0
+musicDifficulties | MasterMusicDifficultyFormatter | 1.0.1

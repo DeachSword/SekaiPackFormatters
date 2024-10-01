@@ -4,7 +4,7 @@ namespace App\Models\pjsk\PackFormatters;
 
 class SekaiPackHelper
 {
-    const VERSION = "v1.0.0";
+    const VERSION = "v1.0.1";
     const MAP_FORMATTERS = [
         'MasterMusicFormatter' => MasterMusicFormatter::class,
         'MusicCategorieFormatter' => MusicCategorieFormatter::class,
@@ -20,6 +20,7 @@ class SekaiPackHelper
         'MasterVirtualLiveAppealFormatter' => MasterVirtualLiveAppealFormatter::class,
         'MasterVirtualLiveBackgroundMusicFormatter' => MasterVirtualLiveBackgroundMusicFormatter::class,
         'MasterVirtualLiveInformationFormatter' => MasterVirtualLiveInformationFormatter::class,
+        'MasterMusicDifficultyFormatter' => MasterMusicDifficultyFormatter::class,
     ];
 
     public static function getFormatterByName(string $name)
