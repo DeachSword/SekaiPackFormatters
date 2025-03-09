@@ -4,7 +4,7 @@ namespace App\Models\pjsk\PackFormatters;
 
 class MasterVirtualLiveSetlistFormatter extends AbstractMasterFormatter
 {
-    const FORMATTER = [
+    public static $FORMATTER = [
         [0, 'id'],
         [1, 'seq'],
         [2, 'virtualLiveSetlistType'],

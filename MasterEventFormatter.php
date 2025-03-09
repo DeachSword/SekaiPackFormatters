@@ -4,7 +4,7 @@ namespace App\Models\pjsk\PackFormatters;
 
 class MasterEventFormatter extends AbstractMasterFormatter
 {
-    const FORMATTER = [
+    public static $FORMATTER = [
         [0, 'id'],
         [1, 'eventType'],
         [2, 'name'],

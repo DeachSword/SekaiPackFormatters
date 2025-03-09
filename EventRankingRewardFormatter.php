@@ -4,7 +4,7 @@ namespace App\Models\pjsk\PackFormatters;
 
 class EventRankingRewardFormatter extends AbstractMasterFormatter
 {
-    const FORMATTER = [
+    public static $FORMATTER = [
         [0, 'resourceBoxId'],
     ];
 }

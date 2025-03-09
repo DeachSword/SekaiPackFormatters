@@ -4,7 +4,7 @@ namespace App\Models\pjsk\PackFormatters;
 
 class MasterShopItemFormatter extends AbstractMasterFormatter
 {
-    const FORMATTER = [
+    public static $FORMATTER = [
         [0, 'id'],
         [1, 'shopId'],
         [2, 'seq'],

@@ -4,7 +4,7 @@ namespace App\Models\pjsk\PackFormatters;
 
 class MasterMusicDifficultyFormatter extends AbstractMasterFormatter
 {
-    const FORMATTER = [
+    public static $FORMATTER = [
         [0, 'id'],
         [1, 'musicId'],
         [2, 'musicDifficulty'],

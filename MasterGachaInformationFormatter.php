@@ -2,10 +2,10 @@
 
 namespace App\Models\pjsk\PackFormatters;
 
-class MasterVirtualLiveInformationFormatter extends AbstractMasterFormatter
+class MasterGachaInformationFormatter extends AbstractMasterFormatter
 {
     public static $FORMATTER = [
-        [0, 'virtualLiveId'],
+        [0, 'gachaId'],
         [1, 'summary'],
         [2, 'description'],
     ];

@@ -28,6 +28,17 @@ class SekaiPackHelper
         'EventRankingRewardRangeFormatter' => EventRankingRewardRangeFormatter::class,
         'EventRankingRewardFormatter' => EventRankingRewardFormatter::class,
         'MasterEventFormatter' => MasterEventFormatter::class,
+        'MasterHonorFormatter' => MasterHonorFormatter::class,
+        'MasterHonorLevelFormatter' => MasterHonorLevelFormatter::class, # 1.0.5
+        'MasterBondsHonorFormatter' => MasterBondsHonorFormatter::class,
+        'MasterBondsHonorLevelFormatter' => MasterBondsHonorLevelFormatter::class, # 1.0.6
+        'MasterGachaCardRarityRateFormatter' => MasterGachaCardRarityRateFormatter::class,
+        'MasterGachaDetailFormatter' => MasterGachaDetailFormatter::class,
+        'MasterGachaBehaviorFormatter' => MasterGachaBehaviorFormatter::class,
+        'MasterGachaPickupFormatter' => MasterGachaPickupFormatter::class,
+        'MasterGachaInformationFormatter' => MasterGachaInformationFormatter::class,
+        'MasterGachaFormatter' => MasterGachaFormatter::class, # 1.0.7
+        'MasterEventDeckBonusFormatter' => MasterEventDeckBonusFormatter::class, # 1.0.8
     ];
 
     public static function getFormatterByName(string $name)
