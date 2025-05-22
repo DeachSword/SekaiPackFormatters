@@ -23,3 +23,5 @@ honors | MasterHonorFormatter | 1.0.5
 bondsHonors | MasterBondsHonorFormatter | 1.0.6
 gachas | MasterGachaFormatter | 1.0.7
 eventDeckBonuses | MasterEventDeckBonusFormatter | 1.0.8
+cards | MasterCardFormatter | 1.0.9
+stamps | MasterStampFormatter | 1.0.10
